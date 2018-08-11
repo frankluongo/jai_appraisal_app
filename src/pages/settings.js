@@ -17,7 +17,6 @@ const formInputs = [
   { type: "text", label: "Appraiser Title", name: "companyAppraiserTitle" },
   { type: "upload", label: "Logo", name: "companyLogoImage", filename: "logo", },
   { type: "upload", label: "Header Image", name: "companyHeaderImage", filename: "header", },
-  { type: "upload", label: "Watermark", name: "companyWatermark", filename: "watermark", },
 ];
 
 export class Settings extends Component {
